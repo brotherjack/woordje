@@ -1,0 +1,83 @@
+# IPython files
+*.ipynb
+.ipynb_checkpoints/
+
+# Documentation
+docs/
+
+# Keep the development js/css out of github
+roodestem/web/static/js/bootstrap.js
+roodestem/web/static/js/d3.js
+roodestem/web/static/js/jquery-3.1.0.js
+roodestem/web/static/css/bootstrap.css
+roodestem/web/static/css/bootstrap-theme.css
+
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+files.txt
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+docs/_build
+
+.webassets-cache
+
+# Virtualenvs
+env
+env*
+venv
+venv*
+
+# Executable Windows Files
+*.exe
+
+# Database Files
+*.db
+
+# Eclipse Settings
+.settings/
+
+# Gedit backups
+*~
+
+# Documents
+*.doc
+*.odt*
+
+# Cache
+.cache
