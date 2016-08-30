@@ -81,3 +81,7 @@ venv*
 
 # Cache
 .cache
+
+# Log files
+*.txt
+*.log

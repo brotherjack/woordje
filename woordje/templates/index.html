@@ -55,6 +55,26 @@
               <textarea class="form-control" rows="5" id="result"></textarea>
            </div></div> -->
       <br>
+      <div class="row">
+    <div class="page-header">
+        <h3>Projects</h3>
+
+    </div>
+    <div class="col-md-3 list-group">
+        <ul class="nav nav-stacked list-group" id="accordion1">
+          {% for project in projects %}
+            <li class="panel list-group-item"> <a data-toggle="collapse" data-parent="#accordion1" href="#firstLink">{{ project.name }}</a>
+              <ul id="firstLink" class="collapse">
+                {% for post in project.posts %}
+                  <li class="list-group-item">{{ post.name }} by {{ post.author }}</li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% endfor %}
+        </ul>
+    </div>
+    <div class="col-md-9"></div>
+</div>
       <div id="main"></div>
     </div>
     <!-- scripts -->
