@@ -7,7 +7,7 @@ Created on Aug 25, 2016
 from setuptools import setup
 
 setup(name='Woordje',
-      version='0.0.1',
+      version='0.1.1',
       description='A web-based text editor for creating quick and small blog posts. Like little poops of wisdom and/or happiness.',
       author='Thomas Adriaan Hellinger',
       author_email='thellinger@acm.org',
